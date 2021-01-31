@@ -1,6 +1,6 @@
 # Tagmail Tailwind Marketing Site
 
 ```bash
-npm install
-npm run dev
+npx tailwindcss init
+npx postcss ./src/*.css -o dist/style.css
 ```
