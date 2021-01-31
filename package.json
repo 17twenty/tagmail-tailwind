@@ -2,7 +2,7 @@
     "scripts": {
         "sync": "./node_modules/.bin/browser-sync start --server --files \"**/*\"",
         "dev": "npx postcss ./src/*.css -o dist/style.css",
-        "watch:dev": "nodemon -x npm run dev -w tailwind.config.js -w ./*html -w postcss.config.js",
+        "watch:dev": "nodemon -x npm run dev -w tailwind.config.js -w ./*html  -w ./src/*css -w postcss.config.js",
         "watch": "./node_modules/.bin/run-p watch:dev sync"
     },
     "dependencies": {
