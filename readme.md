@@ -1,13 +1,19 @@
 # Tagmail Tailwind Marketing Site
 
-## Build for prod
+## Install
+
 ```bash
-npx postcss ./src/*.css -o dist/style.css
+npm install
+```
+
+## Build for prod
+
+```bash
+npm run build
 ```
 
 ## Development 
 
 ```bash
-npm install
-npm run watch
+npm run dev
 ```
